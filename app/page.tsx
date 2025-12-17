@@ -2,6 +2,7 @@ import Hero from '@/components/Hero';
 import CityCard from '@/components/CityCard';
 import TourCard from '@/components/TourCard';
 import CTAButton from '@/components/CTAButton';
+import TestimonialsCarousel from '@/components/TestimonialsCarousel';
 import Image from 'next/image';
 import Link from 'next/link';
 import citiesData from '@/data/cities.json';
@@ -156,7 +157,7 @@ export default function Home() {
         </section>
       )}
 
-      {/* Testimonials */}
+      {/* Testimonials Carousel */}
       <section className="py-12 sm:py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 sm:mb-12">
@@ -165,45 +166,7 @@ export default function Home() {
             </h2>
           </div>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {testimonialsData.testimonials.slice(0, 3).map((testimonial) => (
-              <div key={testimonial.id} className="card-elevated rounded-lg p-4 sm:p-6 bg-card">
-                <div className="mb-4">
-                  <div className="flex text-gold-accent mb-3">
-                    {Array.from({ length: testimonial.rating }).map((_, i) => (
-                      <span key={i}>★</span>
-                    ))}
-                  </div>
-                  {(testimonial as any).avatar && (
-                    <div className="relative w-12 h-12 rounded-full overflow-hidden mb-3">
-                      <Image
-                        src={(testimonial as any).avatar}
-                        alt={testimonial.name}
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                  )}
-                </div>
-                <p className="text-sm sm:text-base text-muted-foreground mb-4 italic">
-                  "{testimonial.text}"
-                </p>
-                <div className="border-t border-border pt-3">
-                  <p className="font-semibold text-sm sm:text-base text-card-foreground">{testimonial.name}</p>
-                  <p className="text-xs sm:text-sm text-muted-foreground">{testimonial.location}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          
-          <div className="text-center mt-8 sm:mt-12">
-            <Link
-              href="/testimonials"
-              className="text-accent hover:underline inline-flex items-center"
-            >
-              Read More Testimonials →
-            </Link>
-          </div>
+          <TestimonialsCarousel testimonials={testimonialsData.testimonials} />
         </div>
       </section>
 
