@@ -1,0 +1,75 @@
+{
+  "cities": [
+    {
+      "slug": "dallas",
+      "name": "Dallas",
+      "state": "Texas",
+      "description": "Discover the vibrant cocktail scene in the heart of Texas. From speakeasies to rooftop bars, Dallas offers an unforgettable cocktail tour experience.",
+      "status": "active",
+      "featuredImage": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1920&q=80&fit=crop&crop=center",
+      "eventbriteUrl": "https://www.eventbrite.com/e/dallas-cocktail-tour-excursions-by-casablanca-cocktails",
+      "nextTourDate": "2025-01-18",
+      "numberOfBars": 10,
+      "tourFrequency": "Weekends",
+      "tourTime": "18:00",
+      "brochureUrl": "/brochures/dallas-brochure.pdf"
+    },
+    {
+      "slug": "fort-worth",
+      "name": "Fort Worth",
+      "state": "Texas",
+      "description": "Experience the unique blend of Western heritage and modern mixology in Fort Worth. Our tour takes you through the best cocktail bars in the Stockyards and downtown.",
+      "status": "active",
+      "featuredImage": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1920&q=80&fit=crop&crop=center",
+      "eventbriteUrl": "https://www.eventbrite.com/e/fort-worth-cocktail-tour-excursions-by-casablanca-cocktails",
+      "nextTourDate": "2025-01-19",
+      "numberOfBars": 10,
+      "tourFrequency": "Weekends",
+      "tourTime": "18:00",
+      "brochureUrl": "/brochures/fort-worth-brochure.pdf"
+    },
+    {
+      "slug": "austin",
+      "name": "Austin",
+      "state": "Texas",
+      "description": "Explore Austin's legendary cocktail culture. From craft cocktail bars to innovative mixology, experience the best of the Live Music Capital's drinking scene.",
+      "status": "coming-soon",
+      "featuredImage": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=1920&q=80&fit=crop&crop=center",
+      "eventbriteUrl": "",
+      "nextTourDate": "2025-02-01",
+      "numberOfBars": 10,
+      "tourFrequency": "Weekends",
+      "tourTime": "18:00",
+      "brochureUrl": "/brochures/austin-brochure.pdf"
+    },
+    {
+      "slug": "new-york-city",
+      "name": "New York City",
+      "state": "New York",
+      "description": "Journey through the iconic cocktail bars of Manhattan and Brooklyn. Experience the birthplace of modern mixology and discover hidden speakeasies.",
+      "status": "coming-soon",
+      "featuredImage": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1920&q=80&fit=crop&crop=center",
+      "eventbriteUrl": "",
+      "nextTourDate": "2025-03-01",
+      "numberOfBars": 10,
+      "tourFrequency": "Weekends",
+      "tourTime": "18:00",
+      "brochureUrl": "/brochures/new-york-city-brochure.pdf"
+    },
+    {
+      "slug": "new-orleans",
+      "name": "New Orleans",
+      "state": "Louisiana",
+      "description": "Immerse yourself in the rich cocktail history of New Orleans. From classic Sazeracs to modern craft cocktails, discover the soul of the Big Easy's bar scene.",
+      "status": "coming-soon",
+      "featuredImage": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1920&q=80&fit=crop&crop=center",
+      "eventbriteUrl": "",
+      "nextTourDate": "2025-04-01",
+      "numberOfBars": 10,
+      "tourFrequency": "Weekends",
+      "tourTime": "18:00",
+      "brochureUrl": "/brochures/new-orleans-brochure.pdf"
+    }
+  ]
+}
+

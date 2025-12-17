@@ -1,0 +1,85 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah M.",
+      "location": "Dallas, TX",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80&fit=crop&crop=face",
+      "text": "An incredible experience! The tour took us to hidden gems we never would have found on our own. The mixologists were knowledgeable and the cocktails were outstanding. Highly recommend!",
+      "tour": "Dallas Cocktail Tour",
+      "date": "2024-12-15"
+    },
+    {
+      "id": 2,
+      "name": "Michael R.",
+      "location": "Fort Worth, TX",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80&fit=crop&crop=face",
+      "text": "Perfect for our corporate team building event. Our employees loved it and it created great bonding opportunities. The tour was well-organized and the bars were exceptional.",
+      "tour": "Fort Worth Cocktail Tour",
+      "date": "2024-12-10"
+    },
+    {
+      "id": 3,
+      "name": "James L.",
+      "location": "Fort Worth, TX",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80&fit=crop&crop=face",
+      "text": "As a cocktail enthusiast, this tour exceeded all my expectations. Each bar had its own unique character and the drinks were expertly crafted. Can't wait to do another city!",
+      "tour": "Fort Worth Cocktail Tour",
+      "date": "2024-12-08"
+    },
+    {
+      "id": 4,
+      "name": "Emily Chen",
+      "location": "Dallas, TX",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80&fit=crop&crop=face",
+      "text": "The best way to explore Dallas's nightlife! Our guide was fantastic and we learned so much about mixology. The variety of bars was perfect - from speakeasies to modern lounges.",
+      "tour": "Dallas Cocktail Tour",
+      "date": "2024-12-05"
+    },
+    {
+      "id": 5,
+      "name": "David Thompson",
+      "location": "Austin, TX",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80&fit=crop&crop=face",
+      "text": "Even though I'm from Austin, I discovered bars I never knew existed! The tour was educational and fun. Great for both locals and visitors.",
+      "tour": "Dallas Cocktail Tour",
+      "date": "2024-11-28"
+    },
+    {
+      "id": 6,
+      "name": "Lisa Anderson",
+      "location": "Dallas, TX",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80&fit=crop&crop=face",
+      "text": "We booked this for a bachelorette party and it was perfect! Everyone had an amazing time. The cocktails were creative and delicious, and the atmosphere at each bar was unique.",
+      "tour": "Dallas Cocktail Tour",
+      "date": "2024-11-20"
+    },
+    {
+      "id": 7,
+      "name": "Robert Martinez",
+      "location": "Fort Worth, TX",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&q=80&fit=crop&crop=face",
+      "text": "Outstanding experience from start to finish. The tour was well-paced, the bars were carefully selected, and the cocktails were world-class. Worth every penny!",
+      "tour": "Fort Worth Cocktail Tour",
+      "date": "2024-11-15"
+    },
+    {
+      "id": 8,
+      "name": "Jennifer Kim",
+      "location": "Dallas, TX",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80&fit=crop&crop=face",
+      "text": "As a business owner, I've sent multiple teams on these tours for team building. They always come back raving about the experience. It's become a company tradition!",
+      "tour": "Dallas Cocktail Tour",
+      "date": "2024-11-10"
+    }
+  ]
+}
+

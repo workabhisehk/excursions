@@ -1,0 +1,53 @@
+{
+  "tours": [
+    {
+      "id": "dallas-2025-01-18",
+      "citySlug": "dallas",
+      "date": "2025-01-18",
+      "time": "18:00",
+      "duration": "4 hours",
+      "maxParticipants": 20,
+      "price": 150,
+      "eventbriteUrl": "https://www.eventbrite.com/e/dallas-cocktail-tour-january-18",
+      "status": "available",
+      "bars": ["bar-dallas-1", "bar-dallas-2", "bar-dallas-3", "bar-dallas-4", "bar-dallas-5", "bar-dallas-6", "bar-dallas-7", "bar-dallas-8", "bar-dallas-9", "bar-dallas-10"]
+    },
+    {
+      "id": "dallas-2025-01-25",
+      "citySlug": "dallas",
+      "date": "2025-01-25",
+      "time": "18:00",
+      "duration": "4 hours",
+      "maxParticipants": 20,
+      "price": 150,
+      "eventbriteUrl": "https://www.eventbrite.com/e/dallas-cocktail-tour-january-25",
+      "status": "available",
+      "bars": ["bar-dallas-1", "bar-dallas-2", "bar-dallas-3", "bar-dallas-4", "bar-dallas-5", "bar-dallas-6", "bar-dallas-7", "bar-dallas-8", "bar-dallas-9", "bar-dallas-10"]
+    },
+    {
+      "id": "fort-worth-2025-01-19",
+      "citySlug": "fort-worth",
+      "date": "2025-01-19",
+      "time": "18:00",
+      "duration": "4 hours",
+      "maxParticipants": 20,
+      "price": 150,
+      "eventbriteUrl": "https://www.eventbrite.com/e/fort-worth-cocktail-tour-january-19",
+      "status": "available",
+      "bars": ["bar-fort-worth-1", "bar-fort-worth-2", "bar-fort-worth-3", "bar-fort-worth-4", "bar-fort-worth-5", "bar-fort-worth-6", "bar-fort-worth-7", "bar-fort-worth-8", "bar-fort-worth-9", "bar-fort-worth-10"]
+    },
+    {
+      "id": "fort-worth-2025-01-26",
+      "citySlug": "fort-worth",
+      "date": "2025-01-26",
+      "time": "18:00",
+      "duration": "4 hours",
+      "maxParticipants": 20,
+      "price": 150,
+      "eventbriteUrl": "https://www.eventbrite.com/e/fort-worth-cocktail-tour-january-26",
+      "status": "available",
+      "bars": ["bar-fort-worth-1", "bar-fort-worth-2", "bar-fort-worth-3", "bar-fort-worth-4", "bar-fort-worth-5", "bar-fort-worth-6", "bar-fort-worth-7", "bar-fort-worth-8", "bar-fort-worth-9", "bar-fort-worth-10"]
+    }
+  ]
+}
+

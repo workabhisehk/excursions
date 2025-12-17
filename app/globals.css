@@ -1,0 +1,195 @@
+@import "tailwindcss";
+
+:root {
+  /* Background & Foreground */
+  --background: 0 0% 100%;
+  --foreground: 0 0% 0%;
+  
+  /* Primary */
+  --primary: 0 0% 0%;
+  --primary-foreground: 0 0% 100%;
+  
+  /* Secondary */
+  --secondary: 0 0% 96%;
+  --secondary-foreground: 0 0% 0%;
+  
+  /* Accent */
+  --accent: 217 91% 60%;
+  --accent-foreground: 0 0% 100%;
+  --gold-accent: 43 96% 56%;
+  
+  /* Card */
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 0%;
+  
+  /* Muted */
+  --muted: 0 0% 96%;
+  --muted-foreground: 0 0% 40%;
+  
+  /* Border & Input */
+  --border: 0 0% 90%;
+  --input: 0 0% 90%;
+  
+  /* Destructive */
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+  
+  /* Hero Overlay */
+  --hero-overlay: 0 0% 0%;
+  --hero-overlay-opacity: 0.5;
+  
+  /* Radius */
+  --radius: 0.5rem;
+  
+  /* Layout */
+  --nav-height: 80px;
+  --container-max-width: 1400px;
+  
+  /* Shadows */
+  --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --card-shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.15);
+  
+  /* Transitions */
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-gold-accent: hsl(var(--gold-accent));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  
+  --font-body: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-heading: 'Bebas Neue', Impact, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: var(--container-max-width);
+  }
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    180deg,
+    hsla(var(--hero-overlay), 0.6),
+    hsla(var(--hero-overlay), 0.4)
+  );
+}
+
+.card-elevated {
+  box-shadow: var(--card-shadow);
+  transition: var(--transition-smooth);
+}
+
+.card-elevated:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-4px);
+}
+
+/* Touch-friendly interactions */
+@media (hover: hover) {
+  .card-elevated:hover {
+    box-shadow: var(--card-shadow-hover);
+    transform: translateY(-4px);
+  }
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Better text rendering on mobile */
+@media (max-width: 640px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+
+/* Improve tap targets on mobile */
+@media (max-width: 768px) {
+  a, button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Allow smaller tap targets for inline elements */
+  a.inline, button.inline {
+    min-height: auto;
+    min-width: auto;
+  }
+}
+
+/* Hero text shadow enhancement */
+.hero-text-shadow {
+  text-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.8),
+    0 0 8px rgba(0, 0, 0, 0.6),
+    0 0 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Smooth transitions for category icons */
+.category-icon {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.category-icon:hover {
+  transform: translateY(-2px);
+}

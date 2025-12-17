@@ -1,0 +1,54 @@
+{
+  "collaborations": {
+    "bars": [
+      {
+        "id": "bar-partner-1",
+        "name": "The Velvet Lounge",
+        "city": "Dallas",
+        "logo": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=400&q=80&fit=crop&crop=center",
+        "description": "Our premier partner in Dallas, known for their exceptional craft cocktails and elegant atmosphere.",
+        "website": "https://example.com/velvet-lounge"
+      },
+      {
+        "id": "bar-partner-2",
+        "name": "Prohibition Bar",
+        "city": "Dallas",
+        "logo": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=400&q=80&fit=crop&crop=center",
+        "description": "A hidden gem that perfectly captures the spirit of the Prohibition era with modern mixology.",
+        "website": "https://example.com/prohibition-bar"
+      },
+      {
+        "id": "bar-partner-3",
+        "name": "Stockyards Saloon",
+        "city": "Fort Worth",
+        "logo": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=400&q=80&fit=crop&crop=center",
+        "description": "Fort Worth's premier cocktail destination, combining Western heritage with innovative drinks.",
+        "website": "https://example.com/stockyards-saloon"
+      }
+    ],
+    "brands": [
+      {
+        "id": "brand-1",
+        "name": "Premium Spirits Co.",
+        "logo": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&q=80&fit=crop&crop=center",
+        "description": "Our exclusive spirits partner, providing premium ingredients for our tours.",
+        "website": "https://example.com/premium-spirits"
+      },
+      {
+        "id": "brand-2",
+        "name": "Craft Mixers",
+        "logo": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=400&q=80&fit=crop&crop=center",
+        "description": "Artisanal mixers and syrups that elevate every cocktail experience.",
+        "website": "https://example.com/craft-mixers"
+      },
+      {
+        "id": "brand-3",
+        "name": "Bar Tools Pro",
+        "logo": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=400&q=80&fit=crop&crop=center",
+        "description": "Professional-grade bar tools and equipment for the perfect cocktail.",
+        "website": "https://example.com/bar-tools"
+      }
+    ]
+  }
+}
+

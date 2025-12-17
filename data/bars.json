@@ -1,0 +1,225 @@
+{
+  "bars": [
+    {
+      "id": "bar-dallas-1",
+      "name": "The Velvet Lounge",
+      "citySlug": "dallas",
+      "address": "123 Main Street, Dallas, TX 75201",
+      "description": "An elegant speakeasy-style bar featuring classic cocktails and a sophisticated atmosphere. Known for their expertly crafted Old Fashioned and innovative seasonal drinks.",
+      "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/velvet-lounge",
+      "featuredCocktails": ["Old Fashioned", "Negroni", "Manhattan"],
+      "order": 1
+    },
+    {
+      "id": "bar-dallas-2",
+      "name": "Prohibition Bar",
+      "citySlug": "dallas",
+      "address": "456 Elm Street, Dallas, TX 75202",
+      "description": "A hidden gem that pays homage to the Prohibition era. Step back in time while enjoying modern twists on classic cocktails.",
+      "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/prohibition-bar",
+      "featuredCocktails": ["Sazerac", "French 75", "Bee's Knees"],
+      "order": 2
+    },
+    {
+      "id": "bar-dallas-3",
+      "name": "Mixology Lab",
+      "citySlug": "dallas",
+      "address": "789 Oak Avenue, Dallas, TX 75203",
+      "description": "A cutting-edge cocktail bar where science meets mixology. Experience molecular gastronomy techniques applied to craft cocktails.",
+      "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/mixology-lab",
+      "featuredCocktails": ["Smoked Old Fashioned", "Liquid Nitrogen Martini", "Deconstructed Mojito"],
+      "order": 3
+    },
+    {
+      "id": "bar-dallas-4",
+      "name": "Rooftop 360",
+      "citySlug": "dallas",
+      "address": "321 Skyline Drive, Dallas, TX 75204",
+      "description": "Stunning rooftop bar with panoramic views of the Dallas skyline. Perfect for sunset cocktails and sophisticated gatherings.",
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/rooftop-360",
+      "featuredCocktails": ["Aperol Spritz", "Moscow Mule", "Gin Fizz"],
+      "order": 4
+    },
+    {
+      "id": "bar-dallas-5",
+      "name": "The Whiskey Den",
+      "citySlug": "dallas",
+      "address": "654 Bourbon Boulevard, Dallas, TX 75205",
+      "description": "A whiskey lover's paradise featuring an extensive collection of rare and premium whiskeys from around the world.",
+      "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/whiskey-den",
+      "featuredCocktails": ["Whiskey Sour", "Boulevardier", "Penicillin"],
+      "order": 5
+    },
+    {
+      "id": "bar-dallas-6",
+      "name": "Craft & Co.",
+      "citySlug": "dallas",
+      "address": "987 Artisan Lane, Dallas, TX 75206",
+      "description": "A modern craft cocktail bar focusing on locally sourced ingredients and innovative flavor combinations.",
+      "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/craft-co",
+      "featuredCocktails": ["Garden Gimlet", "Honey Lavender Sour", "Texas Mule"],
+      "order": 6
+    },
+    {
+      "id": "bar-dallas-7",
+      "name": "The Jazz Lounge",
+      "citySlug": "dallas",
+      "address": "147 Music Street, Dallas, TX 75207",
+      "description": "Live jazz music meets classic cocktails in this intimate setting. Experience the golden age of cocktails with a modern twist.",
+      "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/jazz-lounge",
+      "featuredCocktails": ["Mint Julep", "Sidecar", "Champagne Cocktail"],
+      "order": 7
+    },
+    {
+      "id": "bar-dallas-8",
+      "name": "Tiki Paradise",
+      "citySlug": "dallas",
+      "address": "258 Tropical Way, Dallas, TX 75208",
+      "description": "Escape to a tropical paradise with exotic tiki cocktails, vibrant decor, and a fun, laid-back atmosphere.",
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/tiki-paradise",
+      "featuredCocktails": ["Mai Tai", "Zombie", "Painkiller"],
+      "order": 8
+    },
+    {
+      "id": "bar-dallas-9",
+      "name": "The Gin Garden",
+      "citySlug": "dallas",
+      "address": "369 Botanical Boulevard, Dallas, TX 75209",
+      "description": "A botanical-inspired bar specializing in gin-based cocktails. Features an extensive gin collection and fresh herb garnishes.",
+      "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/gin-garden",
+      "featuredCocktails": ["Gin & Tonic", "Tom Collins", "Aviation"],
+      "order": 9
+    },
+    {
+      "id": "bar-dallas-10",
+      "name": "Midnight Express",
+      "citySlug": "dallas",
+      "address": "741 Night Street, Dallas, TX 75210",
+      "description": "A late-night destination for cocktail enthusiasts. Open until the early hours with a menu of bold, creative drinks.",
+      "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/midnight-express",
+      "featuredCocktails": ["Espresso Martini", "Dark & Stormy", "Last Word"],
+      "order": 10
+    },
+    {
+      "id": "bar-fort-worth-1",
+      "name": "Stockyards Saloon",
+      "citySlug": "fort-worth",
+      "address": "123 Exchange Avenue, Fort Worth, TX 76164",
+      "description": "A historic bar in the Stockyards district combining Western heritage with modern mixology. Experience Texas hospitality at its finest.",
+      "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/stockyards-saloon",
+      "featuredCocktails": ["Texas Mule", "Cowboy Old Fashioned", "Lone Star Sour"],
+      "order": 1
+    },
+    {
+      "id": "bar-fort-worth-2",
+      "name": "The Modernist",
+      "citySlug": "fort-worth",
+      "address": "456 Modern Avenue, Fort Worth, TX 76102",
+      "description": "A sleek, contemporary bar featuring minimalist design and innovative cocktail techniques. Perfect for the modern cocktail enthusiast.",
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/the-modernist",
+      "featuredCocktails": ["Clarified Milk Punch", "Fat Washed Old Fashioned", "Smoked Negroni"],
+      "order": 2
+    },
+    {
+      "id": "bar-fort-worth-3",
+      "name": "Heritage Bar",
+      "citySlug": "fort-worth",
+      "address": "789 History Lane, Fort Worth, TX 76103",
+      "description": "Celebrating Fort Worth's rich history through cocktails. Each drink tells a story of the city's past and present.",
+      "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/heritage-bar",
+      "featuredCocktails": ["Fort Worth Fizz", "Heritage Highball", "Stockyards Sour"],
+      "order": 3
+    },
+    {
+      "id": "bar-fort-worth-4",
+      "name": "The Artisan",
+      "citySlug": "fort-worth",
+      "address": "321 Craft Street, Fort Worth, TX 76104",
+      "description": "Handcrafted cocktails using house-made syrups, bitters, and infusions. A true craft cocktail experience.",
+      "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/the-artisan",
+      "featuredCocktails": ["House Old Fashioned", "Artisan Sour", "Craft Collins"],
+      "order": 4
+    },
+    {
+      "id": "bar-fort-worth-5",
+      "name": "Sundown Terrace",
+      "citySlug": "fort-worth",
+      "address": "654 Sunset Boulevard, Fort Worth, TX 76105",
+      "description": "An outdoor terrace bar perfect for enjoying cocktails while watching the sunset over the Fort Worth skyline.",
+      "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/sundown-terrace",
+      "featuredCocktails": ["Sunset Spritz", "Terrace Mule", "Golden Hour"],
+      "order": 5
+    },
+    {
+      "id": "bar-fort-worth-6",
+      "name": "The Library",
+      "citySlug": "fort-worth",
+      "address": "987 Book Lane, Fort Worth, TX 76106",
+      "description": "A sophisticated bar with a library theme. Enjoy cocktails inspired by literature and classic drinks in a refined setting.",
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/the-library",
+      "featuredCocktails": ["The Hemingway", "Literary Martini", "Bookworm's Delight"],
+      "order": 6
+    },
+    {
+      "id": "bar-fort-worth-7",
+      "name": "Blue Note",
+      "citySlug": "fort-worth",
+      "address": "147 Jazz Avenue, Fort Worth, TX 76107",
+      "description": "A jazz bar with live music and classic cocktails. Experience the smooth sounds of jazz paired with expertly mixed drinks.",
+      "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/blue-note",
+      "featuredCocktails": ["Jazz Martini", "Blue Note Sour", "Smooth Operator"],
+      "order": 7
+    },
+    {
+      "id": "bar-fort-worth-8",
+      "name": "The Garden",
+      "citySlug": "fort-worth",
+      "address": "258 Garden Way, Fort Worth, TX 76108",
+      "description": "A garden-themed bar with fresh herbs and botanicals. Cocktails inspired by nature and seasonal ingredients.",
+      "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/the-garden",
+      "featuredCocktails": ["Garden Gimlet", "Herbaceous Sour", "Botanical Collins"],
+      "order": 8
+    },
+    {
+      "id": "bar-fort-worth-9",
+      "name": "The Vault",
+      "citySlug": "fort-worth",
+      "address": "369 Bank Street, Fort Worth, TX 76109",
+      "description": "A speakeasy located in a former bank vault. Secret entrance, exclusive atmosphere, and premium cocktails.",
+      "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/the-vault",
+      "featuredCocktails": ["Vault Old Fashioned", "Secret Recipe", "Banker's Special"],
+      "order": 9
+    },
+    {
+      "id": "bar-fort-worth-10",
+      "name": "Riverside Lounge",
+      "citySlug": "fort-worth",
+      "address": "741 River Drive, Fort Worth, TX 76110",
+      "description": "A waterfront bar with stunning views of the Trinity River. Relax with cocktails and enjoy the natural beauty of Fort Worth.",
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=80&fit=crop&crop=center",
+      "website": "https://example.com/riverside-lounge",
+      "featuredCocktails": ["Riverside Cooler", "Trinity Sour", "Waterfront Mule"],
+      "order": 10
+    }
+  ]
+}
+
